@@ -1,2 +1,2 @@
-# emilycaridei.github.io
+# Emily Caridei
 Project Portfolio Website
