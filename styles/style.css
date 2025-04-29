@@ -6,6 +6,11 @@ html{
     background-color: #82bcf2;
   }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .lupine {
     background-image: url('../images/20231211_183411.jpg');
     height: 1000px;
@@ -16,7 +21,7 @@ html{
 h1 {
     font-size: 100px;
     text-align: center;
-    margin: 0;
+    margin: 0px;
     padding: 20px 0;
     color: #f0f2f4;
     text-shadow: 3px 3px 1px #3a434b;
@@ -40,10 +45,16 @@ p {
     color: #3a434b;
   }
 
+.text_block{
+  background-color: #f0f2f4;
+  padding: 20px;
+  border-radius: 25px;
+}
+
 img {
     display: block;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 34%;
   }
 
 nav{
@@ -63,6 +74,7 @@ nav ul {
 
 nav li {
     display: inline-block;
+
   }
   
 nav li a {
@@ -76,8 +88,4 @@ nav li a {
 
 nav li a:hover {
     background-color: #dddddd;
-  }
-
-.active {
-    background-color: #82bcf8;
   }
